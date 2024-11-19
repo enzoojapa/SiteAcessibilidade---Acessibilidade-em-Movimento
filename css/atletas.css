@@ -36,28 +36,6 @@ body {
     color: white;
 }
 
-.alto-contraste {
-    background-color: black;
-    color: yellow;
-}
-
-.alto-contraste a {
-    color: lightblue;
-}
-
-
-li button {
-    background: #09206b; /* Fundo do botão */
-    color: #ffffff; /* Texto do botão */
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    border: 2px solid black;
-}
-
 
 /*ATLETAS*/
 

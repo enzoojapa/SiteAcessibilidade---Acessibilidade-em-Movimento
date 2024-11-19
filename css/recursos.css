@@ -40,9 +40,14 @@ body {
     color: white;
 }
 /*ABAIXO DO HEADER*/
+
+
 main {
-    max-width: 1000;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
     text-align: center;
     align-items: center;
 }
@@ -58,6 +63,10 @@ main h2 {
     border-bottom: 2px solid #39bceb;
     display: inline-block;
     padding-bottom: 5px;
+    text-transform: uppercase;
+}
+main h1 {
+    text-transform: uppercase;
 }
 
 main p {
@@ -67,10 +76,10 @@ main p {
     line-height: 1.8;
 }
 
-/* Botões dos Recursos*/
+/* Botões */
 button {
-    background-color: #00064B;
-    color:white;
+    background-color: #09206b;
+    color: #fff;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -83,6 +92,22 @@ button:hover {
     background-color: #39bceb;
     transform: scale(1.05);
 }
+
+/* Alto Contraste */
+body.alto-contraste {
+    background-color: #000;
+    color: #fff;
+}
+
+body.alto-contraste p,
+body.alto-contraste h2 {
+    color: #fff;
+}
+body.alto-contraste h2{
+    border-bottom: 2px solid #a74706;
+}
+
+
 
 
 /*FOOTER*/
