@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d3d3d3;
+    padding: 1rem 2rem;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.menu_nav {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_nav li a {
+
+    color: #00064B;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu_nav li a:hover {
+    color: white;
+}
+
+.alto-contraste {
+    background-color: black;
+    color: yellow;
+}
+
+.alto-contraste a {
+    color: lightblue;
+}
+
+
+li button {
+    background: #09206b; /* Fundo do botão */
+    color: #ffffff; /* Texto do botão */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 2px solid black;
+}
+
+
+/*ATLETAS*/
+
+.titulo2 h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 36px;
+    border-bottom: 2px solid #39bceb;
+    color:#09206b;
+    text-transform: uppercase;
+}
+.titulo2 h2 {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 20px;
+    color: #09206b;
+    text-transform: uppercase;
+}
+
+
+.atletas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ricardinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 400px;
+    margin-bottom: 50px;
+
+}
+
+.ricardinho img {
+    width: 300px;
+    height: 300px;
+    border-radius: 91px;
+    transition: all ease-in-out 0.3s;
+}
+
+.ricardinho img:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
+
+
+.gabrielzinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.gabrielzinho img {
+    width: 300px;
+    height: 300px;
+    border-radius: 91px;
+    transition: all ease-in-out 0.3s;
+}
+
+.gabrielzinho img:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
+
+.terezinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 400px;
+    margin-bottom: 50px;
+}
+
+.terezinha img {
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    transition: all ease-in-out 0.3s;
+}
+
+
+.terezinha img:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
+
+.petrucio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+
+.petrucio img {
+    width: 300px;
+    height: 300px;
+    border-radius: 91px;
+    transition: all ease-in-out 0.3s;
+}
+
+.petrucio img:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
+
+.ricardinho-bio {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-align: justify;
+    align-items: center;
+    margin-top: -1350px;
+    margin-left: 400px;
+}
+
+.gabrielzinho-bio {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 400px;
+}
+
+.terezinha-bio {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 400px;
+
+}
+
+.petrucio-bio {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 400px;
+}
+
+
+
+
+/*FOOTER*/
+footer {
+    background-color: #d0d0d0;
+    padding: 20px 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    height: 100px;
+}
+
+.menu-footer {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-footer li a {
+   
+    color: #00064B;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu-footer li a:hover {
+    color: #fff;
+}
+
+footer button {
+    background-color: #09206b;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer button:hover {
+    background-color: #39bceb;
+}

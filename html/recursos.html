@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubra recursos de acessibilidade disponíveis para navegação inclusiva.">
+    <title>Recursos de Acessibilidade</title>
+    <link rel="stylesheet" href="../css/recursos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../img/LogoSite png.png" alt="Logo da Acessibilidade em Movimento">
+            </a>
+        </div>
+        <nav class="menu">
+            <ul class="menu_nav">
+                <li><a href="./sobre.html">Sobre Nós</a></li>
+                <li><a href="./artigos.html">Artigos</a></li>
+                <li><a href="./atletas.html">Nossos Atletas</a></li>
+                <li><a href="./recursos.html">Recursos</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       
+        <div>
+            <h1>Veja alguns recursos de Acessibilidade na Web</h1>
+            <h2>Modo de Alto Contraste</h2>
+            <p>
+                Ative o modo de alto contraste abaixo para facilitar a leitura, mudando o fundo para preto e as letras para amarelo.
+            </p>
+            <button id="modo-contraste">Ativar Alto Contraste</button>
+        </div>
+
+        
+        <div>
+            <h2>Leitor de Texto</h2>
+            <p id="textoLeitura">
+                Clique em "Ouvir Texto" para ouvir esse texto. Esse Recurso é muito importante para acessibilidade.
+            </p>
+            <button id="btnLerTexto">Ouvir Texto</button>
+        </div>
+
+        
+        <div>
+            <h2>AltText</h2>
+            <p>
+                O texto alternativo (AltText) descreve imagens para leitores de tela e aparece quando a imagem não carrega.<br>
+                 Abaixo coloquei um exemplo da função e importância do AltText: Era para ser uma imagem do mundial do palmeiras mas não carregou.
+            </p>
+            <img src="caminho/errado.jpg" alt="Imagem do Mundial do Palmeiras">
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-content">
+            <img src="../img/LogoSite png.png" alt="Logo da Acessibilidade em Movimento">
+            <ul class="menu-footer">
+                <li><a href="./sobre.html">Sobre Nós</a></li>
+                <li><a href="./artigos.html">Artigos</a></li>
+                <li><a href="./atletas.html">Nossos Atletas</a></li>
+                <li><a href="./recursos.html">Recursos</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+            <button id="scrollToTop" aria-label="Voltar ao topo">↑</button>
+        </div>
+    </footer>
+
+    <script src="../js/botão.js"></script>
+    <script src="../js/recursos.js"></script>
+</body>
+</html>

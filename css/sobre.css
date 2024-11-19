@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d3d3d3;
+    padding: 1rem 2rem;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.menu_nav {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_nav li a {
+
+    color: #00064B;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu_nav li a:hover {
+    color: white;
+}
+
+/* Seção Sobre */
+.about-accessibility {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer; /* Indicador de interação */
+}
+
+.about-accessibility:hover {
+    transform: scale(1.05); /* Expande suavemente */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Destaca com sombra maior */
+}
+
+.titulo h1 {
+    font-size: 36px;
+    color: #09206b;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #39bceb;
+}
+
+.about-accessibility p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
+
+.imgnós {
+    text-align: center;
+}
+    
+.imgnós img{
+    height: 400px;
+    width: 850px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 10px;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #d0d0d0;
+    padding: 20px 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    height: 100px;
+}
+
+.menu-footer {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-footer li a {
+   
+    color: #00064B;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu-footer li a:hover {
+    color: #fff;
+}
+
+footer button {
+    background-color: #09206b;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer button:hover {
+    background-color: #39bceb;
+}
