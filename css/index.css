@@ -71,7 +71,6 @@ body {
     max-width: 900px;
     margin: 50px auto;
     padding: 20px;
-    background-color: whitesmoke;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -100,6 +99,36 @@ body {
 .about-accessibility:hover {
     transform: scale(1.05); /* Expande suavemente */
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Destaca com sombra maior */
+}
+
+button {
+    background-color: #09206b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #39bceb;
+    transform: scale(1.05);
+}
+
+/* Alto Contraste */
+body.alto-contraste {
+    background-color: #000;
+    color: #fff;
+}
+
+body.alto-contraste p,
+body.alto-contraste h1, body.alto-constraste h3, body.alto-contraste h2 {
+    color: #fff;
+}
+body.alto-contraste h2{
+    border-bottom: 2px solid #a74706;
 }
     
 /*FOOTER*/

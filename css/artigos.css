@@ -43,7 +43,6 @@ body {
     max-width: 900px;
     margin: 50px auto;
     padding: 40px 20px;
-    background-color: whitesmoke;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
@@ -79,7 +78,7 @@ body {
     min-height: 200px;
     text-align: center;
     background-color: #7478e8;
-    padding: 15px;
+    padding: 35px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -100,6 +99,35 @@ body {
 
 .article img:hover {
     transform: scale(1.25);
+}
+button {
+    background-color: #09206b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #39bceb;
+    transform: scale(1.05);
+}
+
+/* Alto Contraste */
+body.alto-contraste {
+    background-color: #000;
+    color: #fff;
+}
+
+body.alto-contraste p,
+body.alto-contraste h2, body.alto-contraste h1, body.alto-contraste h3 {
+    color: #fff;
+}
+body.alto-contraste h2{
+    border-bottom: 2px solid #a74706;
 }
 
 
