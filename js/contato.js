@@ -7,7 +7,6 @@ function validarFormulario() {
     const errorMensagem = document.getElementById('errorMensagem');
     let isValid = true;
 
-    // Limpar mensagens de erro
     errorNome.textContent = '';
     errorEmail.textContent = '';
     errorMensagem.textContent = '';

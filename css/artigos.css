@@ -71,6 +71,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    padding: 30px;
 }
 
 .article {
@@ -101,7 +102,7 @@ body {
     transform: scale(1.25);
 }
 button {
-    background-color: #09206b;
+    background-color: #f89705;
     color: #fff;
     border: none;
     border-radius: 5px;

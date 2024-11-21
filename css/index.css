@@ -41,8 +41,7 @@ body {
 .titulo {
     position: relative;
     text-align: center;
-    background-color: #09206b;
-    color: white;
+    color: #09206b;
     padding: 10px 20px;
 }
     
@@ -54,6 +53,7 @@ body {
 .titulo-text h3 {
     font-size: 20px;
     font-weight: 00;
+    color: #f89705;
 }
 
 .banner {
@@ -102,7 +102,7 @@ body {
 }
 
 button {
-    background-color: #09206b;
+    background-color: #f89705;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -129,6 +129,10 @@ body.alto-contraste h1, body.alto-constraste h3, body.alto-contraste h2 {
 }
 body.alto-contraste h2{
     border-bottom: 2px solid #a74706;
+}
+.titulo.alto-contraste{
+    background-color: #000;
+    color: #fff;
 }
     
 /*FOOTER*/
